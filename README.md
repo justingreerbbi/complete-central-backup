@@ -1,10 +1,6 @@
 # Complete Central Backup
 
-<hr>
-
 ## Description
-
-<br>
 
 Lets face it! 
 Losing your data is always breath taking. Its like losing your wallet.
