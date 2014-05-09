@@ -1,0 +1,76 @@
+
+=============== Developer Documentation ===============
+Name: Complete Central Backup 
+Next version: 2.0.25
+=======================================================
+
+
+2.1.0 Developer Notes
+---------------------
+
+	- Add a json setting file to each package. This will help when the restore feature is integrated.
+	- Add PclZip class to bypass compression with zipArchive. This needs tested with extremmly large sites, files ect.
+
+
+2.0.25 Developer Notes
+----------------------
+
+	- Turn on error reporting on by defualt
+
+
+
+2.0.21 Developer Notes:
+-----------------------
+
+	X - Call the backup function and then refresh the page. This should call the backup function which is set to continue 
+	even when a user aborts.
+	X - Once a backup is initiated a backup post should be made with the status as In Progress. Once the backup is complete
+	then the status will update to Complete or failed.
+	- Add analytics Nag which will provide us with valuable error tracking information. This will speed the process of fixing and trcking errors.
+	- Add a check for fastCGI and is found apply the htaccess fix. 
+	- Attempt to raised timoue and memory limits
+	- Add directory permission check for wpbu-backups directory.
+	- Add check while downloading that will show error is the server does not have permissions.
+	- Remove extra slash when calling JS files.
+
+
+2.0.2 Developer Notes:
+----------------------
+
+	- Headers seem to be pointless ( Remove them or fix them ).
+	- Look into form settings layout and see what can't be done about the look and feel.
+	- Move support form into functions file to consolidate code.
+	- Start looking into a new way to label backup files for easier readability (jan-16-2014-{type}-bak.zip).
+	- Change label for email to "Your Email" instead of "Email".
+	- See about added FA icons to the help links.
+	- Add some validation to the support form
+	- Look into issue with SQL header during dump
+	- Start investigation to help visualize larger backups
+
+2.0.2 Release Notes:
+--------------------
+
+	- Header removed
+	- Moved Support form into functions file
+	- Renamed Support Forum Email input
+	- Renamed backup file with somehting more readable
+	- added basic icons to help tabs
+	- Fixed header issue with MySQL dump and uncommented header information again
+
+
+2.0.1 Developer Notes:
+----------------------
+
+	- Issue with downloader. Possible Role issue or missing hook.
+	- Endless loading - I am not too sure about this but it may be du to the console.log usauage and IE. 
+	- Provide more of a detailed feedback for e-mail notifications. Look into adding a email editor.
+	- Add sidebar support feature. This will provide a way for users to send a direct support request to developers with all the needed intformation
+
+2.0.1 Release Notes:
+--------------------
+
+	- Endless loading issue should be patched. 
+	- Minor change to e-mail notification.
+	- Added sidebar in page layout.
+	- Cleaned op warnings throughout plugin.
+	- Fixed notification warning causing some bad juju with default admin email

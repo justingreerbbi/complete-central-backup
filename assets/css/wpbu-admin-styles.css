@@ -1,0 +1,199 @@
+/* Developer Control */
+.wpbu-tabs{
+	display: block;
+}
+
+	.wpbu-tabs ul {
+		width: 100%;
+	}
+
+	.wpbu-tabs ul li {
+		float: left;
+		display: inline;
+		margin: 0 2px;
+	}
+
+	.wpbu-tabs ul li:first-of-type {
+		margin-left: 0;
+	}
+
+	.wpbu-tabs ul li a {
+		color: #666;
+		display: block;
+		line-height: 50px;
+		height: 50px;
+		outline: none;
+		background: #FFF;
+		text-decoration: none;
+		border: 1px solid #e5e5e5;
+ 		border-bottom: 0;
+ 		padding: 0 20px;
+ 		opacity: 0.6;
+	}
+
+	.wpbu-tabs ul li a:hover {
+		opacity: 0.9;
+	}
+
+	.wpbu-tabs ul li a.active {
+		opacity: 1;
+	}
+
+.wpbu-wrapper {
+	border: 1px solid #e5e5e5;
+	padding: 15px;	
+	background: #eeeeee;
+}
+
+.clearboth {
+	clear: both;
+}
+
+/* General */
+
+.tab-description {
+	background: #FFF;
+	border-color: #dfdfdf;
+	position: relative;
+	overflow: auto;
+	margin-bottom: 20px;
+	padding: 10px 10px 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	font-size: 13px;
+	line-height: 2.1em;
+}
+
+	.tab-description h3 {
+		margin: 0;
+		font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;
+		font-size: 21px;
+		font-weight: 400;
+		line-height: 1.2;
+	}
+
+	.tab-description p {
+		line-height: 1.4;
+	}
+
+	tr {
+		height: 40px;	
+	}
+
+
+/* Promo Message - Welcome Panel ========================= */
+.promo-message {
+	margin-top: 20px !important;
+	line-height: 1.4 !important;
+}
+
+/* Overides ========================= */
+.wp-core-ui .welcome-panel .button.button-hero {
+	margin: 0;
+	margin-top: 3px;
+}
+.welcome-panel {
+	padding: 25px 15px 25px;
+}
+
+/* -----------------------------------------------------
+	ALERTS AND MESSAGES
+----------------------------------------------------- */
+.wpbu-license-status {
+	display: block;
+	width: 98%;
+	padding: 1%;
+	font-weight: normal;
+}
+
+.wpbu-license-status.valid {
+	color: green;
+	border: 1px solid green;
+	background: #90EE90;
+}
+
+.wpbu-license-status.not-valid {
+	color: #FFFFFF;
+	border: 1px solid #CD5C5C;
+	background: #F08080;
+}
+
+#wpbu-backup-list td {
+	background-color: #FFF;
+}
+
+.doing-backup {
+	display: none;
+}
+
+/* Backup Options */
+section#backup-options #tabs ul {
+	float:left;
+	list-style:none;
+	height:32px;
+	width:100%;
+	margin:0;
+	padding:0;
+	margin-bottom: 20px;
+	background: #f1f1f1;
+}
+ 
+	section#backup-options #tabs ul li{
+		float:left;
+		height:31px;
+		line-height:31px;
+		border:1px solid #e5e5e5;
+		border-bottom: none;
+		overflow:hidden;
+		position:relative;
+		background:#FFF;
+		margin:0 5px -1px 0;
+		padding:0;
+		opacity: 0.6;
+	}
+	section#backup-options #tabs ul li:first-of-type{
+		border-left: none;
+	}
+	section#backup-options #tabs ul li.ui-state-active{
+		opacity: 1;
+	}
+ 
+		section#backup-options #tabs ul li a {
+			text-decoration:none;
+			
+			display:block;
+			outline:none;
+			padding:3px 20px;
+		}
+
+section#backup-options .inner {
+	background: #ffffff;
+	padding: 15px;
+}
+
+section#backup-options .button-primary {
+	color: #FFF !important;
+}
+
+/* File Browser */
+#backup-browser-status{
+	margin: 10px 0;
+}
+
+#wpbu-browser-table-content tr:nth-child(odd) {
+   	background: #FFFBF7;
+}
+
+#wpbu-browser-table-content tr:nth-child(even) {
+    background: #FFFFFF;
+}
+
+/* Comment out to show options */
+
+.delete a:after {
+	content: " ";
+}
+.options {
+	display: none;
+}

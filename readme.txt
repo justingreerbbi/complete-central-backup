@@ -1,5 +1,5 @@
 === Complete Central Backup ===
-Contributors: justingreerbbi
+Contributors: Justin Greer
 Donate link: http://blackbirdi.com/donate
 Tags: backup,restore,database backup,help
 Requires at least: 3.4.2
