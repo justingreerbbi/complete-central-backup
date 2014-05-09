@@ -1,16 +1,10 @@
-=== Complete Central Backup ===
-Contributors: justingreerbbi
-Donate link: http://blackbirdi.com/donate
-Tags: backup,restore,database backup,help
-Requires at least: 3.4.2
-Tested up to: 3.9
-Stable tag:t 2.1.0
-License: GPLv2 or laer
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+# Complete Central Backup
 
-Create a instant live backup of your whole site with just a click.
+<hr>
 
-== Description ==
+## Description
+
+<br>
 
 Lets face it! 
 Losing your data is always breath taking. Its like losing your wallet.
@@ -30,38 +24,13 @@ Included Features:
 
 All support matters are recommended to be place at our <a href="http://blackbirdi.com/2012/10/25/complete-central-backup-wordpress-plugin/">blog</a>. This way you will get a response sooner as this plugin has limited support.
 
-== Installation ==
+## Installation
 
 1. Upload the `complete-central-backup` directory to the `/wp-content/plugins/` directory or use the built in plugin installer.
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. You can find the plugin dashboard by visiting "backup" tab
 
-== Frequently Asked Questions ==
-
-= What happened to the restore feature of the plugin? =
-We have removed the restore feature for the time being. If you find yourself in need of a restore, you can use phpMyAdmin to do so. You are welcome to visit our blog and ask for help as well. For a small fee, an expert in WordPress recovery can be assigned to help.
-
-== Where are my backup stored ? ==
-Backups are store in a directory labeled "wpbu-backup" in the main "upload" directory of WordPress. This allows for backups to remain in tacked during plugin and CMS upgrades.v
-
-== Backup is (x)MB and download is only 1KB ==
-This is most likely due to server permission settings. We are currently working on a clean way to override and road blocks due to poor server permissions. Until then you can manually download any backups using a FTP program of your choice. Please refer to the FAQ above if you do not know where the backups are stored.
-
-= "I lost everything!!! It is your fault!" =
-
-Although we are happy to help, We (Blackbird Interactive and any developers) take no responsibility for actions done by the user using this plugin. Extreme caution should be taken whenever dealing with any database or files files.
-
-== Upgrade Notice ==
-<hr>
-<i style="color:red;">Take a minute to upgrade, here's why:</i>
-<li> Improved SQL writer. </li>
-<li> Added progressive backup checks before doing backup. </li>
-<li> Fixed remove feature. </li>
-
-== Screenshots ==
-
-
-== Changelog ==
+## Changelog
 
 = 2.1.0 =
 * Imporoved SQL writer using buffer.
